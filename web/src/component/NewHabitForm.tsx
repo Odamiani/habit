@@ -52,7 +52,9 @@ export function NewHabitForm() {
                   <Check size={20} className="text-white" />
                 </CheckBox.Indicator>
               </div>
-              <span className="text-white leading-tight">{weekDay}</span>
+              <span className="text-white leading-tight">
+                {weekDay}
+            </span>
             </CheckBox.Root>
           );
         })}
