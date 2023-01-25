@@ -36,14 +36,14 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 Para clonar e executar este aplicativo, você precisará do git, npm e node. A partir da sua linha de comando:
 ```bash
 # Clone the repository
-$ git clone https://github.com/leondavidtb/habits-tracker.git
+$ git clone https://github.com/Odamiani/habit.git
 ```
 
 ### 🖥️ Web
 
 ```bash
 # Go into the repository
-$ cd habits-tracker/web
+$ cd habit/web
 # Install dependencies
 $ npm install
 # Run the development server
@@ -55,7 +55,7 @@ $ npm run dev
 
 ```bash
 # Go into the repository
-$ cd habits-tracker/mobile
+$ cd habit/mobile
 # Install dependencies
 $ npm install
 # Run the development server
@@ -68,7 +68,7 @@ $ npx expo start
 
 ```bash
 # Go into the repository
-$ cd habits-tracker/server
+$ cd habit/server
 # Install dependencies
 $ npm install
 # Create the .env file in the repository using the sample file .env.example
