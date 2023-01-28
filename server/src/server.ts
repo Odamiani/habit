@@ -5,6 +5,8 @@ import { appRoutes } from "./routes"
 
 const app = Fastify()
 
+//const port = process.env.PORT || 3001;
+
 app.register(cors)
 app.register(appRoutes)
 
